@@ -1,3 +1,3 @@
-[submodule "ReactDemoModule"]
-	path = jarSoftDemoReactDemoModule
+[submodule "src/main/ReactDemoModule"]
+	path = src/main/ReactDemoModule
 	url = https://github.com/IvamMak/ReactDemoModule
