@@ -1,0 +1,3 @@
+[submodule "ReactDemoModule"]
+	path = ReactDemoModule
+	url = https://github.com/IvamMak/ReactDemoModule
