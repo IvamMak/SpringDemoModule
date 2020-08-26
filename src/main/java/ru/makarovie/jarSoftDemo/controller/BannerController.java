@@ -5,6 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.makarovie.jarSoftDemo.exception.NoContentException;
 import ru.makarovie.jarSoftDemo.model.Banner;
+import ru.makarovie.jarSoftDemo.model.Category;
 import ru.makarovie.jarSoftDemo.repository.BannerRepository;
 
 import java.util.List;

@@ -25,11 +25,10 @@ public class Banner {
         this.content = content;
         this.price = price;
         this.deleted = false;
-        this.category = category; 
+        this.category = category;
     }
 
     public Banner(){
-
     }
 
     public Long getId() {
@@ -66,5 +65,13 @@ public class Banner {
 
     public void setDeleted(boolean deleted) {
         this.deleted = deleted;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
     }
 }

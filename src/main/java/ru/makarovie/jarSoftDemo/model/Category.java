@@ -13,7 +13,7 @@ public class Category {
     private String reqName;
     private boolean deleted;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "category")
+    @OneToMany(fetch = FetchType.LAZY)
     private List<Banner> listOfBanner;
 
     public Category(String name, String reqName) {
@@ -52,4 +52,6 @@ public class Category {
     public void setDeleted(boolean deleted) {
         this.deleted = deleted;
     }
+
+
 }
